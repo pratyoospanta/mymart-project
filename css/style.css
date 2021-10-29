@@ -61,7 +61,7 @@ nav ul li a{
 }
 
 .container{
-    min-height: calc(100vh - 17vh - 7vh);
+    min-height: 150vh;
     background-color: grey;
 }
 
