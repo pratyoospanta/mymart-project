@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 17vh;
+    background-color: #2874f0;
+    font-family: 'Dancing Script', cursive;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+nav{
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 16vw;
+    height: 10vh;
+    padding-right: 41.5vw;
+}
+
+nav ul{
+    height: 10vh;
+    display : flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 0 23px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20pt;
+}
+
+.marquee1{
+    color: white;
+}
+
+.info{
+    height: 7vh;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20pt;
+    text-align: center;
+    background-color: #2874f0;
+}
+
+.container{
+    min-height: calc(100vh - 17vh - 7vh);
+    background-color: grey;
+}
+
+footer{
+    height: 7vh;
+    background-color: black;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
